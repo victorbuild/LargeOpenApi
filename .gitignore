@@ -1,2 +1,4 @@
 .gen
 .idea
+/node_modules/
+/_build/

@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/victorbuild/LargeOpenApi/issues"
   },
-  "homepage": "https://github.com/victorbuild/LargeOpenApi#readme"
+  "homepage": "https://github.com/victorbuild/LargeOpenApi#readme",
+  "dependencies": {
+    "swagger-cli": "^4.0.4"
+  }
 }
