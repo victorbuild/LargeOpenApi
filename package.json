@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/victorbuild/LargeOpenApi#readme",
   "dependencies": {
+    "@stoplight/spectral": "^5.9.1",
     "swagger-cli": "^4.0.4"
   }
 }
