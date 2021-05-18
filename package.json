@@ -4,6 +4,7 @@
   "description": "建立容易維護的 OPEN API文件",
   "main": "index.js",
   "scripts": {
+    "build": "swagger-cli bundle openapi.yaml --outfile _build/openapi.yaml --type yaml",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
