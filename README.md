@@ -15,3 +15,9 @@ npm install
 ```
 npm run build
 ```
+
+## 產生基本的 redoc Html 
+
+```
+npm run prod
+```

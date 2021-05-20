@@ -6,7 +6,8 @@
   "scripts": {
     "build": "swagger-cli bundle openapi.yaml --outfile _build/openapi.yaml --type yaml",
     "test": "npm run build && spectral lint _build/openapi.yaml",
-    "prod": "npm run build && redoc-cli bundle _build/openapi.yaml  --output _build/index.html --options.onlyRequiredInSamples"
+    "prod": "npm run build && redoc-cli bundle _build/openapi.yaml  --output _build/index.html --options.onlyRequiredInSamples",
+    "deploy": "./cicd/deploy.sh"
   },
   "repository": {
     "type": "git",
