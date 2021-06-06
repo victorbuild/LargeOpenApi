@@ -17,6 +17,8 @@ jobs:
           npm ci
           npm run build
           npm run prod
+      - name: Change wrapper permissions
+        run: chmod +x ./cicd/deploy.sh
       - name: Deploy to GitHub Pages
         run : npm run deploy
         env:
