@@ -4,7 +4,7 @@
   "description": "建立容易維護的 OPEN API文件",
   "main": "index.js",
   "scripts": {
-    "build": "swagger-cli bundle openapi.yaml --outfile _build/openapi.yaml --type yaml",
+    "build": "swagger-cli bundle src/openapi.yaml --outfile _build/openapi.yaml --type yaml",
     "test": "npm run build && spectral lint _build/openapi.yaml",
     "prod": "npm run build && redoc-cli bundle _build/openapi.yaml  --output _build/index.html --options.onlyRequiredInSamples",
     "deploy": "./cicd/deploy.sh"
